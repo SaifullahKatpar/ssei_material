@@ -257,10 +257,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Air_Pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Air_Pressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Atmosphere"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Aquifer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Aquifer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#WaterBody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Ground_Water_Body"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Atmosphere -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Atmosphere"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Body_Of_Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Body_Of_Water"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Brook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Brook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Stream"/>
     </owl:Class>
     
 
@@ -269,6 +297,22 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#City">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Clouds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Clouds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Atmosphere"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Confined_Aquifer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Confined_Aquifer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Aquifer"/>
     </owl:Class>
     
 
@@ -339,7 +383,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Creek -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Creek">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#WaterBody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Ground_Water_Body"/>
     </owl:Class>
     
 
@@ -347,7 +391,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Dam -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Dam">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#WaterBody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Fresh_Water_Body"/>
     </owl:Class>
     
 
@@ -387,6 +431,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Fresh_Water_Body -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Fresh_Water_Body">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#WaterBody"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Glacier -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Glacier">
@@ -400,6 +452,22 @@
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#GroundWater">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#FreshWater"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#SurfaceWater"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Ground_Water_Body -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Ground_Water_Body">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Fresh_Water_Body"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Humidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Humidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Atmosphere"/>
     </owl:Class>
     
 
@@ -431,6 +499,14 @@
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Land -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Land"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Moisture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Moisture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Atmosphere"/>
+    </owl:Class>
     
 
 
@@ -467,7 +543,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Reservoir -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Reservoir">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#WaterBody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Surface_Water_Body"/>
     </owl:Class>
     
 
@@ -475,7 +551,7 @@
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#River -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#River">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#WaterBody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Stream"/>
     </owl:Class>
     
 
@@ -488,10 +564,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Saline_Water_Body -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Saline_Water_Body">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#WaterBody"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Sinkhole -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Sinkhole">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#WaterBody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Ground_Water_Body"/>
     </owl:Class>
     
 
@@ -518,10 +602,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#State_Of_Atmosphere -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#State_Of_Atmosphere"/>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Stream -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Stream">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#WaterBody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Surface_Water_Body"/>
     </owl:Class>
     
 
@@ -534,6 +624,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Surface_Water_Body -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Surface_Water_Body">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Fresh_Water_Body"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Swamp -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Swamp">
@@ -542,10 +640,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Atmosphere"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Territory -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Territory">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Tributory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Tributory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Stream"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Unconfined_Aquifer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Unconfined_Aquifer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Aquifer"/>
     </owl:Class>
     
 
@@ -571,7 +693,15 @@
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Watershed -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Watershed">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Reservoir"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Weather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Weather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#State_Of_Atmosphere"/>
     </owl:Class>
     
 
@@ -579,7 +709,23 @@
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Well -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Well">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#WaterBody"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Ground_Water_Body"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Wind_Direction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Wind_Direction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Atmosphere"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Wind_Pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Wind_Pressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Atmosphere"/>
     </owl:Class>
     
 
