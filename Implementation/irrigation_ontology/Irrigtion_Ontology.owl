@@ -573,6 +573,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#FreshWater">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh water (or freshwater) is any naturally occurring water except seawater and brackish water. Fresh water includes water in ice sheets, ice caps, glaciers, icebergs, bogs, ponds, lakes, rivers, streams, and even underground water called groundwater.</rdfs:comment>
     </owl:Class>
     
 
@@ -621,6 +622,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#GroundWater">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#FreshWater"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#SurfaceWater"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Groundwater is the water present beneath Earth&apos;s surface in soil pore spaces and in the fractures of rock formations.</rdfs:comment>
     </owl:Class>
     
 
@@ -856,6 +858,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#SalineWater">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aline water (more commonly known as salt water) is water that contains a high concentration of dissolved salts (mainly NaCl).</rdfs:comment>
     </owl:Class>
     
 
@@ -955,6 +958,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#SurfaceWater">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#FreshWater"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface water is water on the surface of the planet such as in a river, lake, wetland, or ocean. It can be contrasted with groundwater and atmospheric water.</rdfs:comment>
     </owl:Class>
     
 
@@ -1027,7 +1031,9 @@
 
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water is a transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth&apos;s streams, lakes, and oceans, and the fluids of most living organisms.</rdfs:comment>
+    </owl:Class>
     
 
 
