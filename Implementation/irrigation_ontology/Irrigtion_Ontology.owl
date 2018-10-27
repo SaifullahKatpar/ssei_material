@@ -858,7 +858,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#SalineWater">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aline water (more commonly known as salt water) is water that contains a high concentration of dissolved salts (mainly NaCl).</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saline water (more commonly known as salt water) is water that contains a high concentration of dissolved salts (mainly NaCl).</rdfs:comment>
     </owl:Class>
     
 
