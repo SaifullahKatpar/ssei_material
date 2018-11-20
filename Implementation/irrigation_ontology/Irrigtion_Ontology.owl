@@ -74,7 +74,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_city">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_region"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#is_city_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#County"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#City"/>
     </owl:ObjectProperty>
@@ -85,7 +84,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_country">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_region"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#is_country_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Continent"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Country"/>
     </owl:ObjectProperty>
@@ -96,7 +94,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_county">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_region"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#is_county_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Province"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#State"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#County"/>
@@ -109,7 +106,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_district">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_region"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#is_district_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Province"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#State"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#County"/>
@@ -146,7 +142,6 @@
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_region -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_region">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#is_region_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Land_Mass"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Region"/>
     </owl:ObjectProperty>
@@ -157,7 +152,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_site">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_region"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#is_site_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#County"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#District"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#State"/>
@@ -197,7 +191,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_territory">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_region"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#is_territory_of"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Country"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Territory"/>
     </owl:ObjectProperty>
