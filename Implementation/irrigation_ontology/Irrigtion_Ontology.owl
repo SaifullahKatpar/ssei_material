@@ -622,6 +622,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Aquaculture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Aquaculture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water_Use"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquaculture water use is water associated with raising creatures that live in water—such as finfish and shellfish—for food, restoration, conservation, or sport.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Aquifer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Aquifer">
@@ -777,6 +786,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Domestic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Domestic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water_Use"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic water use is water used for indoor and outdoor household purposes— all the things you do at home: drinking, preparing food, bathing, washing clothes and dishes, brushing your teeth, watering the yard and garden, and even washing the dog.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Drizzle -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Drizzle">
@@ -788,7 +806,9 @@
 
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Earth -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Earth"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Earth">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the substance of the land surface</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -970,6 +990,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Industrial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Industrial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water_Use"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Industrial water use includes water used for such purposes as fabricating, processing, washing, diluting, cooling, or transporting a product; incorporating water into a product; or for sanitation needs within the manufacturing facility</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Infiltration -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Infiltration">
@@ -982,7 +1011,8 @@
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Irrigation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Irrigation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#WaterUse"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water_Use"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Throughout the world, irrigation (water for agriculture, or growing crops) is probably the most important use of water (except for drinking and washing a smelly dog, perhaps). Estimates vary, but about 70 percent of all the world&apos;s freshwater withdrawals go towards irrigation uses (http://www.globalagriculture.org/report-topics/water.html).</rdfs:comment>
     </owl:Class>
     
 
@@ -1023,6 +1053,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Livestock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Livestock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water_Use"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ivestock water use is water associated with livestock watering, feedlots, dairy operations, and other on-farm needs. Livestock includes dairy cows and heifers, beef cattle and calves, sheep and lambs, goats, hogs and pigs, horses, and poultry. Other livestock water uses include cooling of facilities for the animals and animal products such as milk, dairy sanitation and wash down of facilities, animal waste-disposal systems, and incidental water losses.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Mantle -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Mantle">
@@ -1034,6 +1073,15 @@
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Measurment -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Measurment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Mining -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Mining">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water_Use"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mining corporations need water to make bare rock give up its valuable minerals.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -1100,6 +1148,15 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Province">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Public_supply -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Public_supply">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water_Use"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Public supply refers to water withdrawn by public and private water suppliers that provide water to at least 25 people or have a minimum of 15 connections. Public-supply water is delivered to users for domestic, commercial, and industrial purposes, and also is used for public services and system losses.</rdfs:comment>
     </owl:Class>
     
 
@@ -1318,6 +1375,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Thermoelectric_power -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Thermoelectric_power">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water_Use"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water for thermoelectric power is used in generating electricity with steam-driven turbine generators.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Transpiration -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Transpiration">
@@ -1351,17 +1417,19 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#WaterUse -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#WaterUse"/>
-    
-
-
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water_Cycle -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water_Cycle">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Natural_Process"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water cycle, also called hydrologic cycle, cycle that involves the continuous circulation of water in the Earth-atmosphere system. Of the many processes involved in the water cycle, the most important are evaporation, transpiration, condensation, precipitation, and runoff.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water_Use -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Water_Use">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The water in the Nation&apos;s rivers, lakes, reservoirs, and underground aquifers are vitally important to our everyday life. These water bodies supply the water to serve the needs of every human and for the world&apos;s ecological systems, too.</rdfs:comment>
     </owl:Class>
     
 

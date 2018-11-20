@@ -1,0 +1,49 @@
+/*------------------------------------------------------------------------------------------------------*/
+/*   Framework print stylesheet                                                                         */
+/*   Last update: May 2011                                                                             */
+/*------------------------------------------------------------------------------------------------------*/
+ 
+.noprint {
+	display: none;	
+}
+	
+#leftpane, #leftpart, #adminnav, #topnav, #thesearch {   
+	display: none;  
+}
+
+#usgstitle {
+	background : #ffffff; 
+  	color : #000000; 
+}
+
+
+
+
+body {
+  	color : #000000; 
+	background : #ffffff; 
+  	font-family: Georgia,"Times New Roman", Times, serif;
+    font-size: 10pt;
+}
+
+#content {
+  	color : #000000; 
+	background : #ffffff; 
+  	font-family: Georgia,"Times New Roman", Times, serif;
+    font-size: 10pt;
+}
+
+a { 
+  	text-decoration : underline; 
+  	color : #0000ff; 
+}
+
+
+#usgsfooter {
+  	color : #000000; 
+	background : #ffffff; 
+  	font-family: Georgia,"Times New Roman", Times, serif;
+	margin-top:10px;
+	border-top: thin solid #999999;
+}
+ 

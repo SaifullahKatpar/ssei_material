@@ -1,0 +1,111 @@
+.headlinks {
+	font-size: 90%;
+	margin-top: -1px;
+	margin-bottom: 20px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	background-color: #cccccc;
+}
+
+.headlinks a:link, .headlinks a:visited {
+		color: #222222;
+		text-decoration: none;
+}
+	
+.headlinks a:hover, .headlinks a:active {
+		color: #222222;
+		text-decoration: underline;
+}
+
+.headlinkschinese {
+	margin-top: -1px;
+	margin-bottom: 20px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	background-color: #aabbff;
+}
+
+.headlinkschinese a:link, .headlinkschinese a:visited {
+		color: #222222;
+		text-decoration: none;
+}
+	
+.headlinkschinese a:hover, .headlinkschinese a:active {
+		color: #222222;
+		text-decoration: underline;
+}
+
+#topic{
+	color: #4455bb;
+	font-weight: bold;
+	font-size: 130%;
+	font-family: Tahoma,Helvetica,Arial,sans-serif;
+	margin-bottom : 1px;
+	margin-top: 22px;
+	font-style: italic;
+	text-align: left;
+}
+
+#sources {
+	clear: both;
+	padding-top: 10px;
+	font-size: 90%;
+}
+
+#sources  p {
+	margin-left: 30px;
+}
+
+#footernavigate{
+	font-size: 85%;
+	vertical-align : top;
+}
+
+#diagramfootnote{
+	font-size: 85%;
+	text-align: left;
+	color: #444444;
+}
+
+.topicquick {color: purple;}
+
+.lefthead {
+	background-color: #cccfc3;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	border-bottom: 2px solid #777777;
+	text-align:center;
+	font-weight: bolder;
+	color: #4f4f4f;
+	font-size: 80%;
+	font-family: Trebuchet, Tahoma, Myriad, Arial, Helvetica, sans-serif;
+}
+.leftbody {
+	background-color: #ddf4f4;
+	padding-bottom: 20px;
+	padding-top: 4px;
+	text-align:left;
+	font-size: 80%;
+}
+
+.points {
+   	color: #225599;
+	font-weight: bold;}
+	
+.wctitle {
+		font-weight: bold; 
+		font-size: 16pt; 
+		padding-bottom: 5px; 
+		padding-top: 15px; 
+		color:#224499;}
+		
+		
+		
+#linksfooterbar {
+	width: 100%;
+	background-color: #cccccc;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	clear: both;
+	margin-bottom: -20px;
+}
