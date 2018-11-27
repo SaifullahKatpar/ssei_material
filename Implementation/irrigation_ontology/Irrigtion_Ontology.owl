@@ -4,13 +4,13 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:uo1="http://purl.obolibrary.org/obo/uo#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:uo="http://purl.obolibrary.org/obo/uo.owl"
+     xmlns:uo="http://purl.obolibrary.org/obo/uo#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uo/releases/2018-03-24/uo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uo/releases/2018-05-20/uo.owl"/>
     </owl:Ontology>
     
@@ -508,6 +508,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000000 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000000">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Unit_of_Measurement"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000190 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000190">
@@ -529,14 +537,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000196">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#concentration"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#dimensionless"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_0000261 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000261">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Measurment"/>
     </rdf:Description>
     
 
@@ -1582,6 +1582,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Unit_of_Measurement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Unit_of_Measurement"/>
+    
+
+
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Unsaturated_zone -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Unsaturated_zone">
@@ -1750,12 +1756,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#area">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Measurment"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#has_unit"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1764,14 +1764,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#area_density">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#density"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#catalytic_activity -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#catalytic_activity">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Measurment"/>
     </owl:Class>
     
 
@@ -1848,22 +1840,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#frequency -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#frequency">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Measurment"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#heat_conduction -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#heat_conduction">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Measurment"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#length -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#length">
@@ -1912,14 +1888,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#momentum -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#momentum">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Measurment"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#normality -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#normality">
@@ -1944,25 +1912,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#rotational_frequency -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#rotational_frequency">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#frequency"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#substance -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#substance">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Measurment"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#surface_tension -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#surface_tension">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18#Measurment"/>
     </owl:Class>
     
